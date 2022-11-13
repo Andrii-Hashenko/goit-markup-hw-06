@@ -640,6 +640,53 @@ footer {
 .joinin-list .svg-icon {
   fill: currentColor;
 }
+.subscribe {
+  /* display: flex; */
+  text-align: center;
+  align-items: center;
+  text-align: center;
+  wrap: no-wrap;
+  margin: 0;
+  padding: 0;
+}
+.subscribe-form {
+  margin-left: 93px;
+}
+.subscribe-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 72px;
+
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.button-submit {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 62px 10px 28px;
+  margin: 0;
+}
+/* .button-submit .svg-icon {
+  margin-left: 10px;
+} */
 /* PORTFOLIO */
 /* PROJECTS */
 .btn-projects {
