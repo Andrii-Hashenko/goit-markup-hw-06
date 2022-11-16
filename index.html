@@ -595,7 +595,7 @@
               <p class="subscribe-title">Підпишіться на розсилку</p>
 
               <label for="E-mail">E-mail</label>
-              <input type="" name="E-mail" id="E-mail" />
+              <input type="email" name="E-mail" id="E-mail" />
 
               <button class="button-submit" type="submit">
                 Підписатися
@@ -614,16 +614,22 @@
         <form>
           <p>Залиште свої дані, ми вам передзвонимо</p>
           <div>
-            <label>Ім'я</label>
-            <input />
+            <label for="name">Ім'я</label>
+            <input class="input" type="text" id="name"/><svg class="svg-icon" width="12" height="12">
+              <use href="./images/icons.svg#person"></use>
+            </svg>
           </div>
           <div>
-            <label>Телефон</label>
-            <input />
+            <label for="tel">Телефон</label>
+            <input class="input" type="tel" id="tel"/><svg class="svg-icon" width="13" height="13">
+              <use href="./images/icons.svg#phone"></use>
+            </svg>
           </div>
           <div>
-            <label>Пошта</label>
-            <input />
+            <label for="email">Пошта</label>
+            <input class="input" type="email" id="email"/><svg class="svg-icon" width="15" height="12">
+              <use href="./images/icons.svg#email"></use>
+            </svg>
           </div>
           <div>
             <label>Коментар</label>
