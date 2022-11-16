@@ -273,47 +273,7 @@ address {
 .caption-btn:focus {
   background: var(--web-hover-fokus);
 }
-/* BACKDROP */
-.backdrop.is-hidden {
-  visibility: hidden;
-  pointer-events: none;
-}
-.backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  visibility: visible;
-  transition: opacity 250ms var(--cubic-bezier),
-    visibility 250ms var(--cubic-bezier);
-}
-.modal {
-  position: absolute;
-  width: 528px;
-  height: 581px;
-  left: 50%;
-  top: 56%;
-  transform: translate(-50%, -50%);
-  background: var(--hero-footer);
-  box-shadow: 0px 1px 3px var(--team-bth-p-box-shadow),
-    0px 1px 1px var(--team-box-shadow-two),
-    0px 2px 1px var(--team-box-shadow-three);
-  border-radius: 4px;
-}
-.modal-close {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  right: 8px;
-  top: 8px;
-  display: block;
-  padding: 6px;
-  background: var(--hero-footer);
-  border: 1px solid var(--btn-p-box-shadow-one);
-  border-radius: 50%;
-}
+
 /* OFFER */
 .conteiner .offer {
   display: flex;
@@ -651,6 +611,7 @@ footer {
 }
 .subscribe-form {
   margin-left: 93px;
+  flex-wrap: nowrap;
 }
 .subscribe-title {
   font-family: "Roboto";
@@ -687,6 +648,49 @@ footer {
 /* .button-submit .svg-icon {
   margin-left: 10px;
 } */
+
+/* BACKDROP */
+.backdrop.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  visibility: visible;
+  transition: opacity 250ms var(--cubic-bezier),
+    visibility 250ms var(--cubic-bezier);
+}
+/* MODAL */
+.modal {
+  position: absolute;
+  width: 528px;
+  height: 581px;
+  left: 50%;
+  top: 56%;
+  transform: translate(-50%, -50%);
+  background: var(--hero-footer);
+  box-shadow: 0px 1px 3px var(--team-bth-p-box-shadow),
+    0px 1px 1px var(--team-box-shadow-two),
+    0px 2px 1px var(--team-box-shadow-three);
+  border-radius: 4px;
+}
+.modal-close {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 8px;
+  top: 8px;
+  display: block;
+  padding: 6px;
+  background: var(--hero-footer);
+  border: 1px solid var(--btn-p-box-shadow-one);
+  border-radius: 50%;
+}
 /* PORTFOLIO */
 /* PROJECTS */
 .btn-projects {

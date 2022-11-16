@@ -75,42 +75,6 @@
           <button class="caption-btn" type="button" data-modal-open>
             Замовити послугу
           </button>
-
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <form>
-                <h2>Залиште свої дані, ми вам передзвонимо</h2>
-                <div>
-                  <label>Ім'я</label>
-                  <input />
-                </div>
-                <div>
-                  <label>Телефон</label>
-                  <input />
-                </div>
-                <div>
-                  <label>Пошта</label>
-                  <input />
-                </div>
-                <div>
-                  <label>Коментар</label>
-                  <input />
-                </div>
-                <div>
-                  <label
-                    >Погоджуюся з розсилкою та приймаю <a>Умови договору</a>
-                  </label>
-                  <input />
-                  <button type="submit">Відправити</button>
-                </div>
-              </form>
-              <button class="modal-close" data-modal-close>
-                <svg width="18" height="18">
-                  <use href="./images/icons.svg#close-black-18dp"></use>
-                </svg>
-              </button>
-            </div>
-          </div>
         </div>
       </section>
       <!-- OFFER -->
@@ -628,8 +592,7 @@
           </div>
           <div class="subscribe">
             <form class="subscribe-form">
-              
-              <h2 class="subscribe-title">Підпишіться на розсилку</h2>
+              <p class="subscribe-title">Підпишіться на розсилку</p>
 
               <label for="E-mail">E-mail</label>
               <input type="" name="E-mail" id="E-mail" />
@@ -645,6 +608,42 @@
         </div>
       </div>
     </footer>
+    <!-- MODAL -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <form>
+          <p>Залиште свої дані, ми вам передзвонимо</p>
+          <div>
+            <label>Ім'я</label>
+            <input />
+          </div>
+          <div>
+            <label>Телефон</label>
+            <input />
+          </div>
+          <div>
+            <label>Пошта</label>
+            <input />
+          </div>
+          <div>
+            <label>Коментар</label>
+            <input />
+          </div>
+          <div>
+            <label
+              >Погоджуюся з розсилкою та приймаю <a>Умови договору</a>
+            </label>
+            <input />
+            <button type="submit">Відправити</button>
+          </div>
+        </form>
+        <button class="modal-close" data-modal-close>
+          <svg width="18" height="18">
+            <use href="./images/icons.svg#close-black-18dp"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <!-- SCRIPT -->
     <script src="./js/modal.js"></script>
   </body>
