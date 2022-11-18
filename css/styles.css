@@ -629,26 +629,26 @@ footer {
 }
 .subscribe-label {
   position: absolute;
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-display: flex;
-align-items: center;
-padding: 15px 295px 15px 16px;
-letter-spacing: 0.03em;
-/* color: rgba(255, 255, 255, 0.6); */
-color: red;
+  display: flex;
+  align-items: center;
 }
 .subscribe-input {
-width: 358px;
-height: 50px;
-margin-right: 12px;
-border: 1px solid rgba(255, 255, 255, 0.3);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
-background: #2F303A;
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  padding: 15px 295px 15px 16px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
 }
 .button-submit {
   font-family: "Roboto";
