@@ -718,7 +718,7 @@ footer {
   height: 30px;
   right: 8px;
   top: 8px;
-  display: block;
+  display: flex;
   padding: 6px;
   background: var(--hero-footer);
   border: 1px solid var(--btn-p-box-shadow-one);
@@ -837,6 +837,7 @@ textarea {
 }
 .checkbox-label {
   display: inline-block;
+  margin-left: 16px;
   margin-bottom: 30px;
 }
 .checkbox-icon {
